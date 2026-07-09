@@ -1,5 +1,7 @@
 # Hierarchical Risk Parity with Nonlinear Latent Covariance Filtering
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21270553.svg)](https://doi.org/10.5281/zenodo.21270553)
+
 This repository presents a reproducible implementation of **Hierarchical Risk Parity (HRP)** enhanced through **nonlinear latent covariance filtering** using deep Autoencoders.
 
 The framework employs a rolling walk-forward optimization procedure to dynamically reconstruct covariance structures from nonlinear latent representations before portfolio allocation.
@@ -7,7 +9,6 @@ The framework employs a rolling walk-forward optimization procedure to dynamical
 ## Methodology
 
 The implementation includes:
-
 - Hierarchical Risk Parity (HRP)
 - Deep Autoencoder covariance filtering
 - Rolling walk-forward backtesting
@@ -16,7 +17,6 @@ The implementation includes:
 ## Performance Evaluation
 
 The framework evaluates:
-
 - Annualized Volatility
 - Maximum Drawdown
 - Annualized Sharpe Ratio
@@ -25,16 +25,13 @@ The framework evaluates:
 
 ## Repository Contents
 
-- Jupyter Notebook
-- Dataset
-- Requirements file
+- `Hierarchical Risk Parity with N...`: Main Jupyter Notebook with the full implementation.
+- `df_stocks.xlsx`: Baseline asset dataset used for backtesting replication.
+- `LICENSE`: MIT License.
 
-## Reference
+## Citation
 
-Ramírez-Carrillo, G. (2025).
+If you use this framework or dataset in your research, please cite it as:
 
-*Hierarchical Risk Parity with Nonlinear Latent Covariance Filtering.*
-
-## License
-
-MIT License.
+```text
+Ramírez-Carrillo, G. (2026). Hierarchical Risk Parity with Nonlinear Latent Covariance Filtering (Version v1.0.1). Zenodo. [https://doi.org/10.5281/zenodo.21270553](https://doi.org/10.5281/zenodo.21270553)
